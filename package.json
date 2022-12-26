@@ -1,0 +1,36 @@
+{
+  "name": "liyaplus",
+  "version": "1.0.0",
+  "description": "Nextjs Boilerplate/Template, with Chakra UI and Lanyard API integration.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Elijah Panique",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.14",
+    "@chakra-ui/react": "^2.4.4",
+    "@chakra-ui/theme-tools": "^2.0.14",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.0.2",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-use-lanyard": "^0.2.0",
+    "twemoji": "^14.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-next": "^13.1.1",
+    "git-cz": "^4.9.0",
+    "prettier": "^2.8.1"
+  }
+}
